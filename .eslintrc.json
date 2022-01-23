@@ -1,0 +1,37 @@
+{
+  "plugins": [
+    "react",
+    "react-native",
+    "prettier"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+        "jsx": true,
+        "modules": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "extends" : [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "prettier",
+    "airbnb-base"
+  ],
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/state-in-constructor": "off",
+    "react/prop-types": "off",
+    "object-curly-newline": "off",
+    "eqeqeq": "error",
+    "linebreak-style": "off",
+    "no-undef": "error",
+    "max-len": ["error", { "code": 150 }],
+    "prefer-destructuring": "off",
+    "class-methods-use-this": "warn"
+  },
+  "globals": {
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readonly"
+  }
+}

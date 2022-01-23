@@ -1,0 +1,88 @@
+{
+  "name": "the-new-world-app",
+  "version": "0.0.1",
+  "description": "The New World app for android and ios. Coded by Caerisse",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint-fix": "eslint . --fix",
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caerisse/TheNewWorldApp.git"
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-navigation/bottom-tabs": "^5.5.1",
+    "@react-navigation/compat": "^5.1.25",
+    "@react-navigation/drawer": "5.12.4",
+    "@react-navigation/native": "5.9.3",
+    "@react-navigation/stack": "5.14.3",
+    "@use-expo/font": "^2.0.0",
+    "@expo/vector-icons": "^12.0.5",
+    "expo": "^42.0.0",
+    "expo-app-loading": "1.1.2",
+    "expo-asset": "~8.3.2",
+    "expo-font": "~9.2.1",
+    "galio-framework": "^0.8.0",
+    "prop-types": "^15.7.2",
+    "react": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-modal-dropdown": "git+https://github.com/siemiatj/react-native-modal-dropdown.git",
+    "react-native-reanimated": "~2.2.0",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-screens": "3.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "babel-eslint": "^10.1.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-native": "^4.0.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1",
+    "pre-git": "^3.17.1"
+  },
+  "config": {
+    "pre-git": {
+      "pre-commit": [
+        "npm run lint"
+      ],
+      "pre-push": [],
+      "post-commit": [],
+      "post-checkout": [],
+      "post-merge": []
+    }
+  },
+  "keywords": [
+    "game",
+    "O-Game",
+    "ogame",
+    "react native",
+    "app react native",
+    "iOS",
+    "react native iOS",
+    "Android",
+    "react native expo",
+    "react native galio",
+    "argon design system"
+  ],
+  "author": "Caerisse <caerisse@gmail.com> (https://github.com/Caerisse)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Caerisse/TheNewWorldApp/issues"
+  },
+  "homepage": "https://github.com/Caerisse/TheNewWorldApp#readme",
+  "release": {
+    "analyzeCommits": "simple-commit-message"
+  }
+}
